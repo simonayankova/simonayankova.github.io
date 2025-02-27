@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #cc2929;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    background-image: url('images/cover.jpg');
+}
+
+main {
+    padding: 2em;
+}
+
+.book {
+    background-color: #fff;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width:300px;
+    float:left;
+    height: 600px;
+}
+
+.book h2 {
+    margin-top: 0;
+}
+
+.book img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #cc2929;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+h1{
+    margin:200px;
+    
+}
+a {
+    background-color: #cc2929;
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 10px;
+}
+#kids,#adult{
+    display: block;
+    width: 100%;
+}
